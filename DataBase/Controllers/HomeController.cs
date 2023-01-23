@@ -1,8 +1,8 @@
-﻿using VinylShop.Model;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using VinylShop.Model;
 
-namespace Hypatei.Controllers
+namespace VinylShop.Controllers
 {
     public class HomeController : Controller
     {

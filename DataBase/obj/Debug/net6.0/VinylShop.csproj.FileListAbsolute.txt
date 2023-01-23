@@ -53,3 +53,7 @@ D:\Users\Krzys\Desktop\C#\VinylShop\DataBase\obj\Debug\net6.0\VinylShop.pdb
 D:\Users\Krzys\Desktop\C#\VinylShop\DataBase\obj\Debug\net6.0\VinylShop.genruntimeconfig.cache
 D:\Users\Krzys\Desktop\C#\VinylShop\DataBase\obj\Debug\net6.0\ref\VinylShop.dll
 D:\Users\Krzys\Desktop\C#\VinylShop\DataBase\bin\Debug\net6.0\VinylShop.staticwebassets.runtime.json
+D:\Users\Krzys\Desktop\C#\VinylShop\DataBase\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cache
+D:\Users\Krzys\Desktop\C#\VinylShop\DataBase\obj\Debug\net6.0\VinylShop.RazorAssemblyInfo.cs
+D:\Users\Krzys\Desktop\C#\VinylShop\DataBase\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Users\Krzys\Desktop\C#\VinylShop\DataBase\obj\Debug\net6.0\scopedcss\projectbundle\VinylShop.bundle.scp.css
