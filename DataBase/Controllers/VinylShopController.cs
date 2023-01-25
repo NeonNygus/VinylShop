@@ -22,7 +22,6 @@ namespace VinylShop.Controllers
             ResponseType type = ResponseType.Success;
             try
             {
-                
                 IEnumerable<VinylModel> data = _db.GetVinyls();
                 if(!data.Any()) 
                 {
@@ -35,7 +34,6 @@ namespace VinylShop.Controllers
                 return BadRequest(ResponseHandler.GetExceptionResponse(ex));
             }
         }
-
         // GET api/<VinylShopController>/5
         [HttpGet]
         [Route("api/[controller]/GetVinylById/{id}")]
