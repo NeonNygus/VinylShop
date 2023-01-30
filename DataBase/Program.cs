@@ -1,5 +1,6 @@
 using VinylShop.EfCore;
 using Microsoft.EntityFrameworkCore;
+using VinylShop.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();

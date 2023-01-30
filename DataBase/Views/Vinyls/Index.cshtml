@@ -20,7 +20,22 @@
             <th>
                 @Html.DisplayNameFor(model => model.Artist)
             </th>
-            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.Format)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleaseYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Label)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CatalogueNum)
+            </th>
+            
         </tr>
     </thead>
     <tbody>
@@ -34,12 +49,24 @@
                     @Html.DisplayFor(modelItem => item.Artist)
                 </td>
                 <td>
+                    @Html.DisplayFor(modelItem => item.Format)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Label)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CatalogueNum)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.VinylId">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.VinylId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.VinylId">Delete</a>
+                    <a asp-action="VinylToDelete" asp-route-id="@item.VinylId">Delete</a>
                 </td>
             </tr>
         }

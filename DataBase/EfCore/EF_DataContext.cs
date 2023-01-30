@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using VinylShop.Model;
 
 namespace VinylShop.EfCore
 {
