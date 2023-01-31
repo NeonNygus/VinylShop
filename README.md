@@ -1,12 +1,8 @@
 # VinylShop
 
-**Wyższa Szkoła Informatyki i Zarządzania w Rzeszowie**
-
-**Kolegium Informatyki Stosowanej, Informatyka**
-
 Krzysztof Zwoliński, w66474, Piotr Bogucki w66459
 
-# _ **Dokumentacja Projektu** _
+#  **Dokumentacja Projektu** 
 
 **Rzeszów 31.01.2023**
 
@@ -22,9 +18,7 @@ Krzysztof Zwoliński, w66474, Piotr Bogucki w66459
 
 - Projekt stanowi API obsługujące baze danych wypożyczalni winyli
 - Technologia C# .NET Core 3.1
-- Możliwość logowania i rejestracji
 - Projekt jest przeznaczony do wyświetlania i edycji informacji na temat asortymentu wypożyczalni, klientów, pracowników i wypożyczeń
-- Edycja danych wymaga autoryzacji
 
 **Testy wykonane w Postman:**
 
