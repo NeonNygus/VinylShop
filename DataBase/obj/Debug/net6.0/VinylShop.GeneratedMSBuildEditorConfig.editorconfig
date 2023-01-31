@@ -16,6 +16,70 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Users\Krzys\Desktop\C#\VinylShop\DataBase
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Hires/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Hires/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Hires/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Hires/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Hires/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Hires/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlyZXNcU2hvd1NlYXJjaEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Users/Krzys/Desktop/C\#/VinylShop/DataBase/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

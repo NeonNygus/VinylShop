@@ -7,5 +7,8 @@ namespace VinylShop.EfCore
     {
         public EF_DataContext(DbContextOptions<EF_DataContext> options): base(options) { }
         public DbSet<Vinyl> Vinyls { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Hire> Hires { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }

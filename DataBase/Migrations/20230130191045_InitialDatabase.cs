@@ -12,6 +12,22 @@ namespace VinylShop.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "customer",
+                columns: table => new
+                {
+                    CustId = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    FirstName = table.Column<string>(type: "text", nullable: false),
+                    LastName = table.Column<string>(type: "text", nullable: false),
+                    Adress = table.Column<string>(type: "text", nullable: false),
+                    PhoneNum = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_customer", x => x.CustId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "vinyl",
                 columns: table => new
                 {
@@ -34,6 +50,9 @@ namespace VinylShop.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "customer");
+
             migrationBuilder.DropTable(
                 name: "vinyl");
         }

@@ -11,7 +11,7 @@ using VinylShop.EfCore;
 namespace VinylShop.Migrations
 {
     [DbContext(typeof(EF_DataContext))]
-    [Migration("20230121155200_InitialDatabase")]
+    [Migration("20230130191045_InitialDatabase")]
     partial class InitialDatabase
     {
         /// <inheritdoc />
@@ -23,6 +23,35 @@ namespace VinylShop.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("VinylShop.EfCore.Customer", b =>
+                {
+                    b.Property<int>("CustId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("CustId"));
+
+                    b.Property<string>("Adress")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PhoneNum")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("CustId");
+
+                    b.ToTable("customer");
+                });
 
             modelBuilder.Entity("VinylShop.EfCore.Vinyl", b =>
                 {

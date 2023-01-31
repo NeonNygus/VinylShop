@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using VinylShop.EfCore;
@@ -11,9 +12,11 @@ using VinylShop.EfCore;
 namespace VinylShop.Migrations
 {
     [DbContext(typeof(EF_DataContext))]
-    partial class EFDataContextModelSnapshot : ModelSnapshot
+    [Migration("20230130191212_UpdateDatabase")]
+    partial class UpdateDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,35 +52,6 @@ namespace VinylShop.Migrations
                     b.HasKey("CustId");
 
                     b.ToTable("customer");
-                });
-
-            modelBuilder.Entity("VinylShop.EfCore.Employee", b =>
-                {
-                    b.Property<int>("EmpId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("EmpId"));
-
-                    b.Property<string>("Adress")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("PhoneNum")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("EmpId");
-
-                    b.ToTable("employee");
                 });
 
             modelBuilder.Entity("VinylShop.EfCore.Hire", b =>
